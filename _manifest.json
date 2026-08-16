@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "id": "github.QlzqQlzq.role-memory-plugin",
+  "version": "0.3.0",
+  "name": "基于知识库的动态人设",
+  "description": "从角色原作资料构建本地知识库，按当前场景动态注入记忆、表达参考与渐进关系状态。",
+  "author": {
+    "name": "QlzqQlzq",
+    "url": "https://github.com/QlzqQlzq"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/QlzqQlzq/role-memory-plugin",
+    "homepage": "https://github.com/QlzqQlzq/role-memory-plugin",
+    "documentation": "https://github.com/QlzqQlzq/role-memory-plugin#readme",
+    "issues": "https://github.com/QlzqQlzq/role-memory-plugin/issues"
+  },
+  "host_application": {
+    "min_version": "1.0.12",
+    "max_version": "1.0.99"
+  },
+  "sdk": {
+    "min_version": "2.7.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": ["send.text", "llm.generate", "person.get_id", "person.get_value"],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": ["zh-CN"]
+  }
+}
