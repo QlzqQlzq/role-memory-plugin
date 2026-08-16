@@ -56,7 +56,7 @@ class PluginSectionConfig(PluginConfigBase):
     __ui_order__ = 0
 
     enabled: bool = Field(default=True, description="是否启用基于知识库的动态人设插件")
-    config_version: str = Field(default="0.3.0", description="插件配置版本")
+    config_version: str = Field(default="1.0.0", description="插件配置版本")
     character_name: str = Field(default="", description="当前角色名称；初始化角色库前必须填写")
     pack_file: str = Field(default="character_dossier.json", description="角色证据档案文件名")
     persona_file: str = Field(default="character_persona.txt", description="角色补充人设文件名；仅作检索资料，不覆盖 MaiBot 人设")

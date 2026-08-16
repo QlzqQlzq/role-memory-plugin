@@ -88,7 +88,7 @@ class BuilderTests(unittest.TestCase):
         plugin = RoleMemoryPlugin()
         plugin.set_plugin_config(
             {
-                "plugin": {"config_version": "0.3.0"},
+                "plugin": {"config_version": "1.0.0"},
                 "builder": {"admin_qq_ids": "10001"},
             }
         )

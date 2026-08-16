@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "id": "github.QlzqQlzq.role-memory-plugin",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "name": "基于知识库的动态人设",
   "description": "从角色原作资料构建本地知识库，按当前场景动态注入记忆、表达参考与渐进关系状态。",
   "author": {
-    "name": "QlzqQlzq",
+    "name": "QLZQ_qlzq",
     "url": "https://github.com/QlzqQlzq"
   },
   "license": "MIT",
